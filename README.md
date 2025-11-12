@@ -1,7 +1,8 @@
 # Interactive-Multi-Label-CNN-Learning-with-Identity-Initialization
 
 
-This project extends **Interactive Multi-Label CNN Learning with Partial Labels (CVPR 2020)**((https://openaccess.thecvf.com/content_CVPR_2020/html/Huynh_Interactive_Multi-Label_CNN_Learning_With_Partial_Labels_CVPR_2020_paper.html))
+This project extends [**Interactive Multi-Label CNN Learning with Partial Labels (CVPR 2020)**]([URL](https://openaccess.thecvf.com/content_CVPR_2020/html/Huynh_Interactive_Multi-Label_CNN_Learning_With_Partial_Labels_CVPR_2020_paper.html))
+
  by replacing the usual co-occurrence-based label graph prior with a simple **identity initialization**. The goal is to remove dataset-specific bias and let the model **learn label relationships from scratch**, improving robustness under partial/missing labels. 
 
 ---
