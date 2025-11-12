@@ -1,7 +1,9 @@
 # Interactive-Multi-Label-CNN-Learning-with-Identity-Initialization
 
 
-This project extends [**Interactive Multi-Label CNN Learning with Partial Labels (CVPR 2020)**](https://openaccess.thecvf.com/content_CVPR_2020/html/Huynh_Interactive_Multi-Label_CNN_Learning_With_Partial_Labels_CVPR_2020_paper.html) by replacing the usual co-occurrence-based label graph prior with a simple **identity initialization**. The goal is to remove dataset-specific bias and let the model **learn label relationships from scratch**, improving robustness under partial/missing labels. 
+This project extends [**Interactive Multi-Label CNN Learning with Partial Labels (CVPR 2020)**](https://openaccess.thecvf.com/content_CVPR_2020/html/Huynh_Interactive_Multi-Label_CNN_Learning_With_Partial_Labels_CVPR_2020_paper.html) by introducing a simple identity initialization strategy that replaces traditional co-occurrence-based label graph priors. The model learns label dependencies dynamically from scratch, reducing dataset-specific bias and improving robustness under partial or missing labels.
+
+Implemented in PyTorch, this work demonstrates effective multi-label image classification on a subset of the CUB-200-2011 dataset, achieving an mAP of 0.8214. Developed as part of CS 715 — Advanced Machine Learning at the University of Regina.
 
 ---
 
@@ -45,4 +47,3 @@ This project extends [**Interactive Multi-Label CNN Learning with Partial Labels
 - **Valid classes evaluated:** **18**  
 - **Test mAP:** **0.8214**  
 - **Takeaways:** Identity init + interactive learning maintains strong performance, **removing bias** from co-occurrence priors and remaining effective under limited compute/data. 
-
